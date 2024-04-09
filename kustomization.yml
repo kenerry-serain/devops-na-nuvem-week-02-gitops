@@ -1,0 +1,5 @@
+resources:
+- deployments/frontend.yml
+- deployments/backend.yml
+- services/frontend.yml
+- services/backend.yml

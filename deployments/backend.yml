@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-na-nuvem-week-backend-deployment
+  labels:
+    app: devops-na-nuvem-week-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devops-na-nuvem-week-backend
+  template:
+    metadata:
+      labels:
+        app: devops-na-nuvem-week-backend
+    spec:
+      containers:
+      - name: devops-na-nuvem-week-backend
+        image: 968225077300.dkr.ecr.us-west-1.amazonaws.com/devops-na-nuvem-week/production/backend
+        ports:
+        - containerPort: 80

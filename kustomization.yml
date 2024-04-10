@@ -3,3 +3,4 @@ resources:
 - deployments/backend.yml
 - services/frontend.yml
 - services/backend.yml
+- ingress.yml

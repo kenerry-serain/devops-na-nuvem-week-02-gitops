@@ -9,4 +9,4 @@ kind: Kustomization
 images:
 - name: 968225077300.dkr.ecr.us-west-1.amazonaws.com/devops-na-nuvem-week/production/backend
   newName: 968225077300.dkr.ecr.us-west-1.amazonaws.com/devops-na-nuvem-week/production/backend
-  newTag: 76bd381887f877149b6bf6e9645b88fdb271b44c
+  newTag: 0d1c629f5ebd875be6a28fae7f172991d1a4e49b

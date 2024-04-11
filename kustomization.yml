@@ -4,3 +4,9 @@ resources:
 - services/frontend.yml
 - services/backend.yml
 - ingress.yml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: 968225077300.dkr.ecr.us-west-1.amazonaws.com/devops-na-nuvem-week/production/backend
+  newName: 968225077300.dkr.ecr.us-west-1.amazonaws.com/devops-na-nuvem-week/production/backend
+  newTag: 76bd381887f877149b6bf6e9645b88fdb271b44c
